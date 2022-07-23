@@ -17,6 +17,8 @@
         <module>onlinemall-product</module>
         <module>onlinemall-wave</module>
         <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>onlinemall-common</module>
     </modules>
 
     <properties>
