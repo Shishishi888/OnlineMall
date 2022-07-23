@@ -8,7 +8,7 @@
 
 package com.tjulab.common.xss;
 
-import io.renren.common.exception.RRException;
+import com.tjulab.common.utils.RRException;
 import org.apache.commons.lang.StringUtils;
 
 /**
