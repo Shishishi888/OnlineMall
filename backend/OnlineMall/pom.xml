@@ -16,6 +16,7 @@
         <module>onlinemall-order</module>
         <module>onlinemall-product</module>
         <module>onlinemall-wave</module>
+        <module>renren-fast</module>
     </modules>
 
     <properties>
