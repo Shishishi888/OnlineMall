@@ -1,0 +1,18 @@
+# 配置MySQL数据源
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://106.3.97.45:3336/onlinemall_oms
+    driver-class-name: com.mysql.cj.jdbc.Driver
+# 配置MyBatis Plus
+mybatis-plus:
+  mapper-location: classpath*:/mapper/**/*.xml
+  # 主键自增
+  global-config:
+    db-config:
+      id-type: auto
+
+# 配置端口号
+server:
+  port: 9000
