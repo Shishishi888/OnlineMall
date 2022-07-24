@@ -3,20 +3,23 @@ package com.tjulab.onlinemall.product;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.tjulab.onlinemall.product.entity.BrandEntity;
 import com.tjulab.onlinemall.product.service.BrandService;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
 
+@RunWith(SpringRunner.class)
 @SpringBootTest
-class OnlinemallProductApplicationTests {
+public class OnlineMallProductApplicationTests {
 
     @Autowired
-    BrandService brandService;
+    private BrandService brandService;
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
         BrandEntity brandEntity = new BrandEntity();
 //        brandEntity.setDescript("");
 //        brandEntity.setName("iPhone 13");

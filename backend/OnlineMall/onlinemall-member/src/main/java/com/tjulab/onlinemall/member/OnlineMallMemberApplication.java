@@ -1,13 +1,13 @@
-package com.tjulab.onlinemall.order;
+package com.tjulab.onlinemall.member;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OnlinemallOrderApplication {
+public class OnlineMallMemberApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OnlinemallOrderApplication.class, args);
+        SpringApplication.run(OnlineMallMemberApplication.class, args);
     }
 
 }

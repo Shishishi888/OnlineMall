@@ -11,6 +11,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>onlinemall-common</module>
         <module>onlinemall-coupon</module>
         <module>onlinemall-member</module>
         <module>onlinemall-order</module>
@@ -18,7 +19,6 @@
         <module>onlinemall-wave</module>
         <module>renren-fast</module>
         <module>renren-generator</module>
-        <module>onlinemall-common</module>
     </modules>
 
     <properties>
