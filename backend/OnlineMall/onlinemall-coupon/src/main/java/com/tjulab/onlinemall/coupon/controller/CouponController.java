@@ -4,7 +4,10 @@ import java.util.Arrays;
 import java.util.Map;
 
 // import org.apache.shiro.authz.annotation.RequiresPermissions;
+import jdk.nashorn.internal.ir.annotations.Reference;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,6 +28,7 @@ import com.tjulab.common.utils.R;
  * @email Shishishi996@163.com
  * @date 2022-07-23 13:59:16
  */
+@RefreshScope // 从Nacos配置中心动态地获取配置
 @RestController
 @RequestMapping("coupon/coupon")
 public class CouponController {
@@ -36,6 +40,20 @@ public class CouponController {
         CouponEntity couponEntity = new CouponEntity();
         couponEntity.setCouponName("满100减10");
         return R.ok().put("coupons", Arrays.asList(couponEntity));
+    }
+
+    @Value("${coupon.user.name}")
+    private String userName;
+    @Value("${coupon.user.age}")
+    private String userAge;
+
+    /**
+     * 测试Nacos配置中心
+     * @return
+     */
+    @RequestMapping("/testNacosConfig")
+    public R testNacosConfig() {
+        return R.ok().put("userName", userName).put("userAge", userAge);
     }
 
     /**

@@ -6,7 +6,7 @@ spring:
     url: jdbc:mysql://106.3.97.45:3336/onlinemall_sms
     driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
-    # 配置nacos
+    # 配置nacos注册中心
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
