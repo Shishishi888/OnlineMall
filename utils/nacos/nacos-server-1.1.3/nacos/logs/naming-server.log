@@ -1,0 +1,437 @@
+2022-07-24 21:59:36,681 INFO listen for service meta change
+
+2022-07-24 21:59:48,919 INFO [SERVER-INIT] got port: 8848
+
+2022-07-24 21:59:48,920 INFO [SERVER-INIT] got path: /nacos
+
+2022-07-24 21:59:56,326 INFO receive config info: unknown#192.168.56.1:8848#1658671196326#4
+
+
+2022-07-24 22:00:11,339 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on, old: [], new: [{"adWeight":0,"alive":true,"ip":"192.168.56.1","key":"192.168.56.1:8848","lastRefTime":1658671196326,"lastRefTimeStr":"2022-07-24 21:59:56","servePort":8848,"site":"unknown","weight":4}]
+
+2022-07-24 22:00:11,339 INFO receive config info: unknown#192.168.56.1:8848#1658671211339#4
+
+
+2022-07-24 22:00:26,342 INFO receive config info: unknown#192.168.56.1:8848#1658671226342#4
+
+
+2022-07-24 22:00:41,357 INFO receive config info: unknown#192.168.56.1:8848#1658671241357#4
+
+
+2022-07-24 22:00:56,364 INFO receive config info: unknown#192.168.56.1:8848#1658671256364#4
+
+
+2022-07-24 22:01:11,369 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2022-07-24 22:01:11,369 INFO receive config info: unknown#192.168.56.1:8848#1658671271369#4
+
+
+2022-07-24 22:01:26,379 INFO receive config info: unknown#192.168.56.1:8848#1658671286379#4
+
+
+2022-07-24 22:01:41,394 INFO receive config info: unknown#192.168.56.1:8848#1658671301394#4
+
+
+2022-07-24 22:01:56,395 INFO receive config info: unknown#192.168.56.1:8848#1658671316395#4
+
+
+2022-07-24 22:02:11,402 INFO receive config info: unknown#192.168.56.1:8848#1658671331402#4
+
+
+2022-07-24 22:02:26,408 INFO receive config info: unknown#192.168.56.1:8848#1658671346408#4
+
+
+2022-07-24 22:02:41,414 INFO receive config info: unknown#192.168.56.1:8848#1658671361414#4
+
+
+2022-07-24 22:02:56,417 INFO receive config info: unknown#192.168.56.1:8848#1658671376417#4
+
+
+2022-07-24 22:03:11,426 INFO receive config info: unknown#192.168.56.1:8848#1658671391426#4
+
+
+2022-07-24 22:03:26,443 INFO receive config info: unknown#192.168.56.1:8848#1658671406443#4
+
+
+2022-07-24 22:03:41,446 INFO receive config info: unknown#192.168.56.1:8848#1658671421446#4
+
+
+2022-07-24 22:03:56,452 INFO receive config info: unknown#192.168.56.1:8848#1658671436452#4
+
+
+2022-07-24 22:04:11,457 INFO receive config info: unknown#192.168.56.1:8848#1658671451456#4
+
+
+2022-07-24 22:04:26,467 INFO receive config info: unknown#192.168.56.1:8848#1658671466467#4
+
+
+2022-07-24 22:04:41,486 INFO receive config info: unknown#192.168.56.1:8848#1658671481486#4
+
+
+2022-07-24 22:04:56,496 INFO receive config info: unknown#192.168.56.1:8848#1658671496496#4
+
+
+2022-07-24 22:05:11,506 INFO receive config info: unknown#192.168.56.1:8848#1658671511506#4
+
+
+2022-07-24 22:05:26,515 INFO receive config info: unknown#192.168.56.1:8848#1658671526515#4
+
+
+2022-07-24 22:05:41,519 INFO receive config info: unknown#192.168.56.1:8848#1658671541519#4
+
+
+2022-07-24 22:05:51,677 INFO creating empty service public:DEFAULT_GROUP@@onlinemall-coupon
+
+2022-07-24 22:05:51,713 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#7000#DEFAULT#DEFAULT_GROUP@@onlinemall-coupon","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1658671551687,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@onlinemall-coupon","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2022-07-24 22:05:51,716 INFO [NEW-SERVICE] {"appName":"","checksum":"e9c2b564b6d5fa84e8e6346512c1fd75","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":2295,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1658671551691},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","serviceName":"DEFAULT_GROUP@@onlinemall-coupon","sitegroup":"","useIPPort4Check":true}},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1658671551682,"metadata":{},"name":"DEFAULT_GROUP@@onlinemall-coupon","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2022-07-24 22:05:51,719 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@onlinemall-coupon, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#7000#DEFAULT#DEFAULT_GROUP@@onlinemall-coupon","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1658671551671,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@onlinemall-coupon","tenant":"","weight":1.0}]}
+
+2022-07-24 22:05:56,532 INFO receive config info: unknown#192.168.56.1:8848#1658671556532#4
+
+
+2022-07-24 22:06:11,535 INFO receive config info: unknown#192.168.56.1:8848#1658671571535#4
+
+
+2022-07-24 22:06:26,542 INFO receive config info: unknown#192.168.56.1:8848#1658671586542#4
+
+
+2022-07-24 22:06:41,551 INFO receive config info: unknown#192.168.56.1:8848#1658671601551#4
+
+
+2022-07-24 22:06:56,563 INFO receive config info: unknown#192.168.56.1:8848#1658671616563#4
+
+
+2022-07-24 22:07:11,569 INFO receive config info: unknown#192.168.56.1:8848#1658671631569#4
+
+
+2022-07-24 22:07:26,581 INFO receive config info: unknown#192.168.56.1:8848#1658671646581#4
+
+
+2022-07-24 22:07:41,594 INFO receive config info: unknown#192.168.56.1:8848#1658671661594#4
+
+
+2022-07-24 22:07:56,599 INFO receive config info: unknown#192.168.56.1:8848#1658671676599#4
+
+
+2022-07-24 22:08:11,613 INFO receive config info: unknown#192.168.56.1:8848#1658671691612#4
+
+
+2022-07-24 22:08:26,615 INFO receive config info: unknown#192.168.56.1:8848#1658671706615#4
+
+
+2022-07-24 22:08:41,634 INFO receive config info: unknown#192.168.56.1:8848#1658671721634#4
+
+
+2022-07-24 22:08:56,642 INFO receive config info: unknown#192.168.56.1:8848#1658671736642#4
+
+
+2022-07-24 22:09:06,416 INFO creating empty service public:DEFAULT_GROUP@@onlinemall-member
+
+2022-07-24 22:09:06,418 INFO [NEW-SERVICE] {"appName":"","checksum":"af4ca7ba46a9329309aa00d1e8180e67","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1658671746416,"metadata":{},"name":"DEFAULT_GROUP@@onlinemall-member","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2022-07-24 22:09:06,419 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#8000#DEFAULT#DEFAULT_GROUP@@onlinemall-member","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1658671746416,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8000,"serviceName":"DEFAULT_GROUP@@onlinemall-member","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2022-07-24 22:09:06,419 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@onlinemall-member, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#8000#DEFAULT#DEFAULT_GROUP@@onlinemall-member","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1658671746416,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8000,"serviceName":"DEFAULT_GROUP@@onlinemall-member","tenant":"","weight":1.0}]}
+
+2022-07-24 22:09:06,421 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@onlinemall-member, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#8000#DEFAULT#DEFAULT_GROUP@@onlinemall-member","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1658671746420,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8000,"serviceName":"DEFAULT_GROUP@@onlinemall-member","tenant":"","weight":1.0}]}
+
+2022-07-24 22:09:11,650 INFO receive config info: unknown#192.168.56.1:8848#1658671751650#4
+
+
+2022-07-24 22:09:26,658 INFO receive config info: unknown#192.168.56.1:8848#1658671766658#4
+
+
+2022-07-24 22:09:41,663 INFO receive config info: unknown#192.168.56.1:8848#1658671781663#4
+
+
+2022-07-24 22:09:56,675 INFO receive config info: unknown#192.168.56.1:8848#1658671796675#4
+
+
+2022-07-24 22:10:11,691 INFO receive config info: unknown#192.168.56.1:8848#1658671811691#4
+
+
+2022-07-24 22:10:26,700 INFO receive config info: unknown#192.168.56.1:8848#1658671826700#4
+
+
+2022-07-24 22:10:41,705 INFO receive config info: unknown#192.168.56.1:8848#1658671841705#4
+
+
+2022-07-24 22:10:56,711 INFO receive config info: unknown#192.168.56.1:8848#1658671856711#4
+
+
+2022-07-24 22:11:11,726 INFO receive config info: unknown#192.168.56.1:8848#1658671871726#4
+
+
+2022-07-24 22:11:26,736 INFO receive config info: unknown#192.168.56.1:8848#1658671886736#4
+
+
+2022-07-24 22:11:41,751 INFO receive config info: unknown#192.168.56.1:8848#1658671901750#4
+
+
+2022-07-24 22:11:56,770 INFO receive config info: unknown#192.168.56.1:8848#1658671916770#4
+
+
+2022-07-24 22:12:11,782 INFO receive config info: unknown#192.168.56.1:8848#1658671931782#4
+
+
+2022-07-24 22:12:26,793 INFO receive config info: unknown#192.168.56.1:8848#1658671946793#4
+
+
+2022-07-24 22:12:41,805 INFO receive config info: unknown#192.168.56.1:8848#1658671961805#4
+
+
+2022-07-24 22:12:56,807 INFO receive config info: unknown#192.168.56.1:8848#1658671976807#4
+
+
+2022-07-24 22:13:11,816 INFO receive config info: unknown#192.168.56.1:8848#1658671991816#4
+
+
+2022-07-24 22:13:26,851 INFO receive config info: unknown#192.168.56.1:8848#1658672006851#4
+
+
+2022-07-24 22:13:41,867 INFO receive config info: unknown#192.168.56.1:8848#1658672021867#4
+
+
+2022-07-24 22:13:56,876 INFO receive config info: unknown#192.168.56.1:8848#1658672036876#4
+
+
+2022-07-24 22:14:11,880 INFO receive config info: unknown#192.168.56.1:8848#1658672051880#4
+
+
+2022-07-24 22:14:26,895 INFO receive config info: unknown#192.168.56.1:8848#1658672066895#4
+
+
+2022-07-24 22:14:41,911 INFO receive config info: unknown#192.168.56.1:8848#1658672081911#4
+
+
+2022-07-24 22:14:56,925 INFO receive config info: unknown#192.168.56.1:8848#1658672096925#4
+
+
+2022-07-24 22:15:11,932 INFO receive config info: unknown#192.168.56.1:8848#1658672111932#4
+
+
+2022-07-24 22:15:26,936 INFO receive config info: unknown#192.168.56.1:8848#1658672126936#4
+
+
+2022-07-24 22:15:41,940 INFO receive config info: unknown#192.168.56.1:8848#1658672141940#4
+
+
+2022-07-24 22:15:56,946 INFO receive config info: unknown#192.168.56.1:8848#1658672156946#4
+
+
+2022-07-24 22:16:11,952 INFO receive config info: unknown#192.168.56.1:8848#1658672171952#4
+
+
+2022-07-24 22:16:26,957 INFO receive config info: unknown#192.168.56.1:8848#1658672186957#4
+
+
+2022-07-24 22:16:41,967 INFO receive config info: unknown#192.168.56.1:8848#1658672201967#4
+
+
+2022-07-24 22:16:56,981 INFO receive config info: unknown#192.168.56.1:8848#1658672216981#4
+
+
+2022-07-24 22:17:11,986 INFO receive config info: unknown#192.168.56.1:8848#1658672231986#4
+
+
+2022-07-24 22:17:26,997 INFO receive config info: unknown#192.168.56.1:8848#1658672246997#4
+
+
+2022-07-24 22:17:42,001 INFO receive config info: unknown#192.168.56.1:8848#1658672262001#4
+
+
+2022-07-24 22:17:57,012 INFO receive config info: unknown#192.168.56.1:8848#1658672277012#4
+
+
+2022-07-24 22:18:12,015 INFO receive config info: unknown#192.168.56.1:8848#1658672292015#4
+
+
+2022-07-24 22:18:27,021 INFO receive config info: unknown#192.168.56.1:8848#1658672307021#4
+
+
+2022-07-24 22:18:42,028 INFO receive config info: unknown#192.168.56.1:8848#1658672322028#4
+
+
+2022-07-24 22:18:57,042 INFO receive config info: unknown#192.168.56.1:8848#1658672337042#4
+
+
+2022-07-24 22:19:12,058 INFO receive config info: unknown#192.168.56.1:8848#1658672352058#4
+
+
+2022-07-24 22:19:27,068 INFO receive config info: unknown#192.168.56.1:8848#1658672367068#4
+
+
+2022-07-24 22:19:42,076 INFO receive config info: unknown#192.168.56.1:8848#1658672382076#4
+
+
+2022-07-24 22:19:57,087 INFO receive config info: unknown#192.168.56.1:8848#1658672397087#4
+
+
+2022-07-24 22:20:12,101 INFO receive config info: unknown#192.168.56.1:8848#1658672412101#4
+
+
+2022-07-24 22:20:27,103 INFO receive config info: unknown#192.168.56.1:8848#1658672427103#4
+
+
+2022-07-24 22:20:42,113 INFO receive config info: unknown#192.168.56.1:8848#1658672442113#4
+
+
+2022-07-24 22:20:57,124 INFO receive config info: unknown#192.168.56.1:8848#1658672457124#4
+
+
+2022-07-24 22:21:12,139 INFO receive config info: unknown#192.168.56.1:8848#1658672472139#4
+
+
+2022-07-24 22:21:27,150 INFO receive config info: unknown#192.168.56.1:8848#1658672487149#4
+
+
+2022-07-24 22:21:42,162 INFO receive config info: unknown#192.168.56.1:8848#1658672502162#4
+
+
+2022-07-24 22:21:57,162 INFO receive config info: unknown#192.168.56.1:8848#1658672517162#4
+
+
+2022-07-24 22:22:12,169 INFO receive config info: unknown#192.168.56.1:8848#1658672532169#4
+
+
+2022-07-24 22:22:27,172 INFO receive config info: unknown#192.168.56.1:8848#1658672547172#4
+
+
+2022-07-24 22:22:42,188 INFO receive config info: unknown#192.168.56.1:8848#1658672562188#4
+
+
+2022-07-24 22:22:57,200 INFO receive config info: unknown#192.168.56.1:8848#1658672577200#4
+
+
+2022-07-24 22:23:12,202 INFO receive config info: unknown#192.168.56.1:8848#1658672592202#4
+
+
+2022-07-24 22:23:27,211 INFO receive config info: unknown#192.168.56.1:8848#1658672607211#4
+
+
+2022-07-24 22:23:42,212 INFO receive config info: unknown#192.168.56.1:8848#1658672622212#4
+
+
+2022-07-24 22:23:57,225 INFO receive config info: unknown#192.168.56.1:8848#1658672637225#4
+
+
+2022-07-24 22:24:12,237 INFO receive config info: unknown#192.168.56.1:8848#1658672652237#4
+
+
+2022-07-24 22:24:27,249 INFO receive config info: unknown#192.168.56.1:8848#1658672667249#4
+
+
+2022-07-24 22:24:42,253 INFO receive config info: unknown#192.168.56.1:8848#1658672682253#4
+
+
+2022-07-24 22:24:57,266 INFO receive config info: unknown#192.168.56.1:8848#1658672697266#4
+
+
+2022-07-24 22:25:12,276 INFO receive config info: unknown#192.168.56.1:8848#1658672712276#4
+
+
+2022-07-24 22:25:27,292 INFO receive config info: unknown#192.168.56.1:8848#1658672727292#4
+
+
+2022-07-24 22:25:35,827 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@onlinemall-coupon, value: {"cachedChecksum":"","instanceList":[]}
+
+2022-07-24 22:25:42,308 INFO receive config info: unknown#192.168.56.1:8848#1658672742308#4
+
+
+2022-07-24 22:25:51,075 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@onlinemall-coupon, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#7000#DEFAULT#DEFAULT_GROUP@@onlinemall-coupon","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1658672751075,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@onlinemall-coupon","tenant":"","weight":1.0}]}
+
+2022-07-24 22:25:51,076 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@onlinemall-coupon, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#7000#DEFAULT#DEFAULT_GROUP@@onlinemall-coupon","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1658672751075,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@onlinemall-coupon","tenant":"","weight":1.0}]}
+
+2022-07-24 22:25:57,323 INFO receive config info: unknown#192.168.56.1:8848#1658672757323#4
+
+
+2022-07-24 22:26:12,336 INFO receive config info: unknown#192.168.56.1:8848#1658672772336#4
+
+
+2022-07-24 22:26:27,344 INFO receive config info: unknown#192.168.56.1:8848#1658672787344#4
+
+
+2022-07-24 22:26:40,877 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@onlinemall-member, value: {"cachedChecksum":"","instanceList":[]}
+
+2022-07-24 22:26:42,348 INFO receive config info: unknown#192.168.56.1:8848#1658672802348#4
+
+
+2022-07-24 22:26:57,362 INFO receive config info: unknown#192.168.56.1:8848#1658672817362#4
+
+
+2022-07-24 22:27:07,148 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@onlinemall-member, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#8000#DEFAULT#DEFAULT_GROUP@@onlinemall-member","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1658672827148,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8000,"serviceName":"DEFAULT_GROUP@@onlinemall-member","tenant":"","weight":1.0}]}
+
+2022-07-24 22:27:12,374 INFO receive config info: unknown#192.168.56.1:8848#1658672832374#4
+
+
+2022-07-24 22:27:27,383 INFO receive config info: unknown#192.168.56.1:8848#1658672847383#4
+
+
+2022-07-24 22:27:42,397 INFO receive config info: unknown#192.168.56.1:8848#1658672862397#4
+
+
+2022-07-24 22:27:57,405 INFO receive config info: unknown#192.168.56.1:8848#1658672877405#4
+
+
+2022-07-24 22:28:12,409 INFO receive config info: unknown#192.168.56.1:8848#1658672892409#4
+
+
+2022-07-24 22:28:27,411 INFO receive config info: unknown#192.168.56.1:8848#1658672907411#4
+
+
+2022-07-24 22:28:42,420 INFO receive config info: unknown#192.168.56.1:8848#1658672922420#4
+
+
+2022-07-24 22:28:45,538 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@onlinemall-coupon, value: {"cachedChecksum":"","instanceList":[]}
+
+2022-07-24 22:28:56,405 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@onlinemall-member, value: {"cachedChecksum":"","instanceList":[]}
+
+2022-07-24 22:28:57,431 INFO receive config info: unknown#192.168.56.1:8848#1658672937431#4
+
+
+2022-07-24 22:29:12,439 INFO receive config info: unknown#192.168.56.1:8848#1658672952439#4
+
+
+2022-07-24 22:29:26,149 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@onlinemall-member, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#8000#DEFAULT#DEFAULT_GROUP@@onlinemall-member","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1658672966149,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8000,"serviceName":"DEFAULT_GROUP@@onlinemall-member","tenant":"","weight":1.0}]}
+
+2022-07-24 22:29:26,150 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@onlinemall-member, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#8000#DEFAULT#DEFAULT_GROUP@@onlinemall-member","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1658672966149,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8000,"serviceName":"DEFAULT_GROUP@@onlinemall-member","tenant":"","weight":1.0}]}
+
+2022-07-24 22:29:27,454 INFO receive config info: unknown#192.168.56.1:8848#1658672967454#4
+
+
+2022-07-24 22:29:42,468 INFO receive config info: unknown#192.168.56.1:8848#1658672982468#4
+
+
+2022-07-24 22:29:57,474 INFO receive config info: unknown#192.168.56.1:8848#1658672997474#4
+
+
+2022-07-24 22:30:12,484 INFO receive config info: unknown#192.168.56.1:8848#1658673012484#4
+
+
+2022-07-24 22:30:25,511 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@onlinemall-coupon, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#7000#DEFAULT#DEFAULT_GROUP@@onlinemall-coupon","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1658673025511,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@onlinemall-coupon","tenant":"","weight":1.0}]}
+
+2022-07-24 22:30:25,513 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@onlinemall-coupon, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#7000#DEFAULT#DEFAULT_GROUP@@onlinemall-coupon","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1658673025513,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":7000,"serviceName":"DEFAULT_GROUP@@onlinemall-coupon","tenant":"","weight":1.0}]}
+
+2022-07-24 22:30:27,500 INFO receive config info: unknown#192.168.56.1:8848#1658673027500#4
+
+
+2022-07-24 22:30:42,514 INFO receive config info: unknown#192.168.56.1:8848#1658673042514#4
+
+
+2022-07-24 22:30:57,519 INFO receive config info: unknown#192.168.56.1:8848#1658673057519#4
+
+
+2022-07-24 22:31:12,533 INFO receive config info: unknown#192.168.56.1:8848#1658673072533#4
+
+
+2022-07-24 22:31:27,535 INFO receive config info: unknown#192.168.56.1:8848#1658673087535#4
+
+
+2022-07-24 22:31:42,550 INFO receive config info: unknown#192.168.56.1:8848#1658673102550#4
+
+
+2022-07-24 22:31:57,556 INFO receive config info: unknown#192.168.56.1:8848#1658673117556#4
+
+

@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Map;
 
 // import org.apache.shiro.authz.annotation.RequiresPermissions;
+import com.tjulab.onlinemall.member.feign.CouponFeignService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -30,6 +31,21 @@ import com.tjulab.common.utils.R;
 public class MemberController {
     @Autowired
     private MemberService memberService;
+
+    @Autowired
+    CouponFeignService couponFeignService;
+
+    /**
+     * 测试远程调用
+     * @return
+     */
+    @RequestMapping("/coupons")
+    public R testFeign() {
+        MemberEntity memberEntity = new MemberEntity();
+        memberEntity.setNickname("Shishi");
+        R memberCoupons =  couponFeignService.getMemberCoupons();
+        return R.ok().put("member", memberEntity).put("coupons", memberCoupons);
+    }
 
     /**
      * 列表
