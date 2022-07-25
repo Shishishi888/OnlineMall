@@ -1,0 +1,4 @@
+2022-07-25 19:19:05,985 INFO [dump-all-ok] onlinemall-coupon.properties+DEFAULT_GROUP, 1658675853117, length=52, md5=b51a9c91e070e9c5ce8fe5b25cfc46a4
+
+2022-07-25 21:00:17,288 WARN [dump-ignore] ignore to save cache file. groupKey=onlinemall-coupon.properties+DEFAULT_GROUP+7b4fca8a-656a-4709-a23a-0405477f1d7c, md5=b96eefb0f0e29fd0bb7e20627b7bd256, lastModifiedOld=1658753982880, lastModifiedNew=1658754017249
+

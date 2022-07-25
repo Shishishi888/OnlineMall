@@ -1,0 +1,76 @@
+2022-07-24 22:05:52,737 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 22:09:07,431 INFO DEFAULT_GROUP@@onlinemall-member is changed, add it to push queue.
+
+2022-07-24 22:25:36,838 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 22:25:52,076 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 22:26:41,880 INFO DEFAULT_GROUP@@onlinemall-member is changed, add it to push queue.
+
+2022-07-24 22:27:08,153 INFO DEFAULT_GROUP@@onlinemall-member is changed, add it to push queue.
+
+2022-07-24 22:28:46,541 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 22:28:46,542 INFO serviceName: DEFAULT_GROUP@@onlinemall-coupon changed, schedule push for: 172.23.177.194:61318, agent: Nacos-Java-Client:v1.1.1, key: 172.23.177.194,61318,123273699458000
+
+2022-07-24 22:28:46,552 INFO send udp packet: 172.23.177.194,61318,123273699458000
+
+2022-07-24 22:28:46,583 INFO received ack: {"type": "push-ack", "lastRefTime":"123273699458000", "data":""} from: 172.23.177.194:, cost: 61318 ms, unacked: 31, total push: 0
+
+2022-07-24 22:28:57,415 INFO DEFAULT_GROUP@@onlinemall-member is changed, add it to push queue.
+
+2022-07-24 22:29:27,158 INFO DEFAULT_GROUP@@onlinemall-member is changed, add it to push queue.
+
+2022-07-24 22:30:26,522 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 22:30:26,523 INFO serviceName: DEFAULT_GROUP@@onlinemall-coupon changed, schedule push for: 172.23.177.194:57647, agent: Nacos-Java-Client:v1.1.1, key: 172.23.177.194,57647,123373680448900
+
+2022-07-24 22:30:26,523 INFO send udp packet: 172.23.177.194,57647,123373680448900
+
+2022-07-24 22:30:26,543 INFO received ack: {"type": "push-ack", "lastRefTime":"123373680448900", "data":""} from: 172.23.177.194:, cost: 57647 ms, unacked: 20, total push: 0
+
+2022-07-24 22:44:13,614 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 22:44:13,614 INFO serviceName: DEFAULT_GROUP@@onlinemall-coupon changed, schedule push for: 172.23.177.194:57647, agent: Nacos-Java-Client:v1.1.1, key: 172.23.177.194,57647,124200771485900
+
+2022-07-24 22:44:13,614 INFO send udp packet: 172.23.177.194,57647,124200771485900
+
+2022-07-24 22:44:13,622 INFO received ack: {"type": "push-ack", "lastRefTime":"124200771485900", "data":""} from: 172.23.177.194:, cost: 57647 ms, unacked: 8, total push: 0
+
+2022-07-24 22:44:15,014 INFO DEFAULT_GROUP@@onlinemall-member is changed, add it to push queue.
+
+2022-07-24 22:53:26,394 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:02:51,127 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:03:29,906 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:04:54,389 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:05:35,450 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:06:24,057 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:06:44,796 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:07:14,508 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:07:35,747 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:07:58,167 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:08:25,660 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:12:50,662 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:13:10,927 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:16:12,155 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:16:37,017 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:16:54,961 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
+2022-07-24 23:17:07,626 INFO DEFAULT_GROUP@@onlinemall-coupon is changed, add it to push queue.
+
