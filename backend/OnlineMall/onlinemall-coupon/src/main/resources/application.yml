@@ -1,26 +1,26 @@
-spring:
-  # 配置MySQL数据源
-  datasource:
-    username: root
-    password: 123456
-    url: jdbc:mysql://106.3.97.45:3336/onlinemall_sms
-    driver-class-name: com.mysql.cj.jdbc.Driver
-  cloud:
-    # 配置nacos注册中心
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:8848
-  application:
-    name: onlinemall-coupon
-
-# 配置MyBatis Plus
-mybatis-plus:
-  mapper-location: classpath*:/mapper/**/*.xml
-  # 主键自增
-  global-config:
-    db-config:
-      id-type: auto
-
-# 配置端口号
-server:
-  port: 7000
+#spring:
+#  # 配置MySQL数据源
+#  datasource:
+#    username: root
+#    password: 123456
+#    url: jdbc:mysql://106.3.97.45:3336/onlinemall_sms
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  cloud:
+#    # 配置nacos注册中心
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#  application:
+#    name: onlinemall-coupon
+#
+## 配置MyBatis Plus
+#mybatis-plus:
+#  mapper-location: classpath*:/mapper/**/*.xml
+#  # 主键自增
+#  global-config:
+#    db-config:
+#      id-type: auto
+#
+## 配置端口号
+#server:
+#  port: 7000
