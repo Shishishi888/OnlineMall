@@ -1,0 +1,24 @@
+2022-07-26 20:28:16,974 INFO DEFAULT_GROUP@@onlinemall-coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-26 20:28:16,979 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-coupon, ips: 192.168.56.1:7000_true,
+
+2022-07-26 20:28:39,889 INFO DEFAULT_GROUP@@onlinemall-coupon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-26 20:28:39,889 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-coupon, ips: 
+
+2022-07-26 20:36:20,499 INFO DEFAULT_GROUP@@onlinemall-coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-26 20:36:20,499 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-coupon, ips: 192.168.56.1:7000_true,
+
+2022-07-26 20:36:20,501 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-coupon, ips: 192.168.56.1:7000_true,
+
+2022-07-26 21:17:22,615 INFO DEFAULT_GROUP@@onlinemall-coupon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-26 21:17:22,615 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-coupon, ips: 
+
+2022-07-26 21:17:29,599 INFO DEFAULT_GROUP@@onlinemall-coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-26 21:17:29,599 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-coupon, ips: 192.168.56.1:7000_true,
+
+2022-07-26 21:17:29,600 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-coupon, ips: 192.168.56.1:7000_true,
+
