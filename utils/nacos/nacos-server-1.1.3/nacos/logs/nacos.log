@@ -1,0 +1,12 @@
+2022-07-27 00:05:38,508 INFO [capacityManagement] start correct usage
+
+2022-07-27 00:05:38,560 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-07-27 00:05:38,650 WARN clearConfigHistory start
+
+2022-07-27 00:15:38,561 INFO [capacityManagement] start correct usage
+
+2022-07-27 00:15:38,562 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-07-27 00:15:38,656 WARN clearConfigHistory start
+
