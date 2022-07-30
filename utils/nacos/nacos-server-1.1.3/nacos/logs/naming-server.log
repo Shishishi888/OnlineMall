@@ -275,3 +275,65 @@
 2022-07-30 13:13:12,523 INFO receive config info: unknown#192.168.56.1:8848#1659157992523#4
 
 
+2022-07-30 14:21:47,627 INFO listen for service meta change
+
+2022-07-30 14:21:51,448 INFO [SERVER-INIT] got port: 8848
+
+2022-07-30 14:21:51,448 INFO [SERVER-INIT] got path: /nacos
+
+2022-07-30 14:21:51,735 INFO creating empty service public:DEFAULT_GROUP@@renren-fast
+
+2022-07-30 14:21:51,755 INFO [NEW-SERVICE] {"appName":"","checksum":"c2e4f175c8f2eb1d041b196f1b2a32b9","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1659162111740,"metadata":{},"name":"DEFAULT_GROUP@@renren-fast","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2022-07-30 14:21:51,778 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1659162111735,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"serviceName":"DEFAULT_GROUP@@renren-fast","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2022-07-30 14:21:51,783 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1659162111735,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"serviceName":"DEFAULT_GROUP@@renren-fast","tenant":"","weight":1.0}]}
+
+2022-07-30 14:21:52,489 INFO receive config info: unknown#192.168.56.1:8848#1659162112489#4
+
+
+2022-07-30 14:21:53,347 INFO creating empty service public:DEFAULT_GROUP@@onlinemall-gateway
+
+2022-07-30 14:21:53,348 INFO [NEW-SERVICE] {"appName":"","checksum":"33eae1d9ff1779259537dee6da94c294","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1659162113347,"metadata":{},"name":"DEFAULT_GROUP@@onlinemall-gateway","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2022-07-30 14:21:53,349 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#88#DEFAULT#DEFAULT_GROUP@@onlinemall-gateway","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1659162113347,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":88,"serviceName":"DEFAULT_GROUP@@onlinemall-gateway","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2022-07-30 14:21:53,349 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@onlinemall-gateway, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.56.1#88#DEFAULT#DEFAULT_GROUP@@onlinemall-gateway","ip":"192.168.56.1","ipDeleteTimeout":30000,"lastBeat":1659162113347,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":88,"serviceName":"DEFAULT_GROUP@@onlinemall-gateway","tenant":"","weight":1.0}]}
+
+2022-07-30 14:22:07,502 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on, old: [], new: [{"adWeight":0,"alive":true,"ip":"192.168.56.1","key":"192.168.56.1:8848","lastRefTime":1659162112489,"lastRefTimeStr":"2022-07-30 14:21:52","servePort":8848,"site":"unknown","weight":4}]
+
+2022-07-30 14:22:07,502 INFO receive config info: unknown#192.168.56.1:8848#1659162127502#4
+
+
+2022-07-30 14:22:22,508 INFO receive config info: unknown#192.168.56.1:8848#1659162142508#4
+
+
+2022-07-30 14:22:37,516 INFO receive config info: unknown#192.168.56.1:8848#1659162157516#4
+
+
+2022-07-30 14:22:52,517 INFO receive config info: unknown#192.168.56.1:8848#1659162172517#4
+
+
+2022-07-30 14:23:07,531 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2022-07-30 14:23:07,531 INFO receive config info: unknown#192.168.56.1:8848#1659162187531#4
+
+
+2022-07-30 14:23:22,543 INFO receive config info: unknown#192.168.56.1:8848#1659162202543#4
+
+
+2022-07-30 14:23:37,548 INFO receive config info: unknown#192.168.56.1:8848#1659162217548#4
+
+
+2022-07-30 14:23:52,560 INFO receive config info: unknown#192.168.56.1:8848#1659162232560#4
+
+
+2022-07-30 14:24:07,564 INFO receive config info: unknown#192.168.56.1:8848#1659162247564#4
+
+
+2022-07-30 14:24:22,571 INFO receive config info: unknown#192.168.56.1:8848#1659162262571#4
+
+
+2022-07-30 14:24:37,576 INFO receive config info: unknown#192.168.56.1:8848#1659162277576#4
+
+

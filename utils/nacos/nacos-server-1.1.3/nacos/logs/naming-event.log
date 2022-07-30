@@ -30,3 +30,11 @@
 
 2022-07-30 13:11:17,734 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.56.1:8080_true,
 
+2022-07-30 14:21:51,788 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-30 14:21:51,792 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.56.1:8080_true,
+
+2022-07-30 14:21:53,349 INFO DEFAULT_GROUP@@onlinemall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-30 14:21:53,349 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 192.168.56.1:88_true,
+
