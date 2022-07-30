@@ -22,3 +22,11 @@
 
 2022-07-27 00:06:47,022 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 192.168.56.1:88_true,
 
+2022-07-30 13:11:17,192 INFO DEFAULT_GROUP@@onlinemall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-30 13:11:17,195 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 192.168.56.1:88_true,
+
+2022-07-30 13:11:17,734 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-30 13:11:17,734 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.56.1:8080_true,
+
