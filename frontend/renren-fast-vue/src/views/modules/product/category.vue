@@ -13,10 +13,10 @@
         data() {
             //这里存放数据
             return {
-                data: [],
+                menus: [],
                 defaultProps: {
                     children: "children",
-                    label: "label"
+                    label: "name"
                 }
             };
         },
