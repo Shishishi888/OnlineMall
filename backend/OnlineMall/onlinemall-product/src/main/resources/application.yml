@@ -17,7 +17,15 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: auto
+      # 逻辑删除
+      logic-delete-value: 1
+      logic-not-delete-value: 0
 
 # 配置服务端口号
 server:
   port: 12000
+
+# 配置日志打印
+logging:
+  level:
+    com.tjulab.onlinemall: debug

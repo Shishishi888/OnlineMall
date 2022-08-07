@@ -30,3 +30,15 @@
 
 2022-08-07 15:23:25,042 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 192.168.106.1:88_true,
 
+2022-08-07 15:52:12,487 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 15:52:12,489 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.106.1:8080_true,
+
+2022-08-07 15:52:14,888 INFO DEFAULT_GROUP@@onlinemall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 15:52:14,889 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 192.168.106.1:88_true,
+
+2022-08-07 15:52:16,130 INFO DEFAULT_GROUP@@onlinemall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 15:52:16,130 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-product, ips: 192.168.106.1:12000_true,
+
