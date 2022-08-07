@@ -1,0 +1,16 @@
+2022-08-07 15:19:28,187 INFO DEFAULT_GROUP@@onlinemall-gateway is changed, add it to push queue.
+
+2022-08-07 15:20:41,711 INFO DEFAULT_GROUP@@onlinemall-product is changed, add it to push queue.
+
+2022-08-07 15:22:14,964 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-08-07 15:22:14,965 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 192.168.100.5:60063, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.5,60063,212457791402800
+
+2022-08-07 15:22:14,965 INFO send udp packet: 192.168.100.5,60063,212457791402800
+
+2022-08-07 15:22:14,972 INFO received ack: {"type": "push-ack", "lastRefTime":"212457791402800", "data":""} from: 192.168.100.5:, cost: 60063 ms, unacked: 7, total push: 0
+
+2022-08-07 15:23:13,948 INFO DEFAULT_GROUP@@onlinemall-gateway is changed, add it to push queue.
+
+2022-08-07 15:23:26,050 INFO DEFAULT_GROUP@@onlinemall-gateway is changed, add it to push queue.
+
