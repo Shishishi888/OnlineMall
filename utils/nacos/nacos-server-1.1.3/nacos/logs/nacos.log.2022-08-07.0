@@ -1,0 +1,210 @@
+2022-08-07 15:18:50,053 INFO Starting Nacos v1.1.3 on DESKTOP-ROFFILO with PID 16628 (D:\Projects\learn\OnlineMall\utils\nacos\nacos-server-1.1.3\nacos\target\nacos-server.jar started by ShiYang in D:\Projects\learn\OnlineMall\utils\nacos\nacos-server-1.1.3\nacos\bin)
+
+2022-08-07 15:18:50,056 INFO The following profiles are active: standalone
+
+2022-08-07 15:18:51,863 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$f54a0594] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-07 15:18:51,986 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-07 15:18:51,990 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@17f62e33' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-07 15:18:51,993 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$1a1ea846] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-07 15:18:51,996 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-07 15:18:53,071 INFO Tomcat initialized with port(s): 8848 (http)
+
+2022-08-07 15:18:53,095 INFO Starting service [Tomcat]
+
+2022-08-07 15:18:53,095 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2022-08-07 15:18:53,105 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\DeveloperTools\Java\Java 1.8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\DeveloperTools\VMware\VMware Workstation\bin\;"D:\DeveloperTools\Java\Java 1.8\jdk1.8.0_131\bin;D:\DeveloperTools\Java\Java 1.8\jdk1.8.0_131\jre\bin;";C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\DeveloperTools\Redis-x64;D:\DeveloperTools\Git\cmd;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;D:\DeveloperTools\NetSarang\Xshell 7\;D:\DeveloperTools\Java\Java 1.8\jdk1.8.0_131\bin;D:\DeveloperTools\NetSarang\Xftp 7\;D:\DeveloperTools\protoc-21.2-win64\bin;C:\Program Files\nodejs\;D:\DeveloperTools\HashiCorp\Vagrant\bin;D:\DeveloperTools\apache-maven-3.6.1\bin;C:\Users\ShiYang\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\ShiYang\AppData\Local\Programs\Python\Python310\;C:\Users\ShiYang\AppData\Local\Microsoft\WindowsApps;C:\Users\ShiYang\.dotnet\tools;D:\DeveloperTools\JetBrains\IntelliJ IDEA 2021.2.3\bin;;D:\DeveloperTools\JetBrains\JetBrains Rider 2021.2.2\bin;;C:\Users\ShiYang\AppData\Local\Programs\Microsoft VS Code\bin;D:\DeveloperTools\Microsoft VS Code\bin;D:\DeveloperTools\JetBrains\PhpStorm 2021.3.3\bin;;D:\DeveloperTools\JetBrains\PyCharm 2021.3.3\bin;;C:\Users\ShiYang\AppData\Roaming\npm;;.]
+
+2022-08-07 15:18:53,202 INFO Initializing Spring embedded WebApplicationContext
+
+2022-08-07 15:18:53,202 INFO Root WebApplicationContext: initialization completed in 3097 ms
+
+2022-08-07 15:18:57,163 INFO Use Mysql as the driver
+
+2022-08-07 15:18:57,653 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2022-08-07 15:18:58,173 INFO Adding welcome page: class path resource [static/index.html]
+
+2022-08-07 15:18:58,893 INFO Creating filter chain: Ant [pattern='/'], []
+
+2022-08-07 15:18:58,904 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2022-08-07 15:18:58,906 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2022-08-07 15:18:58,911 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2022-08-07 15:18:58,912 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2022-08-07 15:18:58,913 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2022-08-07 15:18:58,913 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2022-08-07 15:18:58,914 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2022-08-07 15:18:58,914 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+
+2022-08-07 15:18:58,915 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+
+2022-08-07 15:18:58,916 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2022-08-07 15:18:58,917 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+
+2022-08-07 15:18:58,918 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+
+2022-08-07 15:18:58,919 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+
+2022-08-07 15:18:58,919 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2022-08-07 15:18:58,920 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2022-08-07 15:18:59,010 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e7aa82b, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c42d2b7, org.springframework.security.web.header.HeaderWriterFilter@4351c8c3, org.springframework.security.web.authentication.logout.LogoutFilter@a4ca3f6, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@3b2c0e88, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b1f29fa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@774698ab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5bd82fed, org.springframework.security.web.session.SessionManagementFilter@6bea52d4, org.springframework.security.web.access.ExceptionTranslationFilter@246f8b8b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@698122b2]
+
+2022-08-07 15:18:59,093 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2022-08-07 15:18:59,160 INFO Initializing ExecutorService 'taskScheduler'
+
+2022-08-07 15:18:59,410 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2022-08-07 15:18:59,429 INFO Started Nacos in 10.762 seconds (JVM running for 11.421)
+
+2022-08-07 15:18:59,431 INFO Nacos Log files: D:\Projects\learn\OnlineMall\utils\nacos\nacos-server-1.1.3\nacos/logs/
+
+2022-08-07 15:18:59,432 INFO Nacos Conf files: D:\Projects\learn\OnlineMall\utils\nacos\nacos-server-1.1.3\nacos/conf/
+
+2022-08-07 15:18:59,437 INFO Nacos Data files: D:\Projects\learn\OnlineMall\utils\nacos\nacos-server-1.1.3\nacos/data/
+
+2022-08-07 15:18:59,443 INFO Nacos started successfully in stand alone mode.
+
+2022-08-07 15:19:01,752 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2022-08-07 15:19:01,752 INFO Initializing Servlet 'dispatcherServlet'
+
+2022-08-07 15:19:01,796 INFO Completed initialization in 44 ms
+
+2022-08-07 15:28:56,513 INFO [capacityManagement] start correct usage
+
+2022-08-07 15:28:56,615 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-08-07 15:28:57,154 WARN clearConfigHistory start
+
+2022-08-07 15:52:04,402 INFO Starting Nacos v1.1.3 on DESKTOP-ROFFILO with PID 10088 (D:\Projects\learn\OnlineMall\utils\nacos\nacos-server-1.1.3\nacos\target\nacos-server.jar started by ShiYang in D:\Projects\learn\OnlineMall\utils\nacos\nacos-server-1.1.3\nacos\bin)
+
+2022-08-07 15:52:04,402 INFO The following profiles are active: standalone
+
+2022-08-07 15:52:06,094 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$ce82b35a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-07 15:52:06,186 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-07 15:52:06,188 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@470734c3' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-07 15:52:06,189 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$f357560c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-07 15:52:06,191 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-07 15:52:07,080 INFO Tomcat initialized with port(s): 8848 (http)
+
+2022-08-07 15:52:07,105 INFO Starting service [Tomcat]
+
+2022-08-07 15:52:07,105 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2022-08-07 15:52:07,117 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\DeveloperTools\Java\Java 1.8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\DeveloperTools\VMware\VMware Workstation\bin\;"D:\DeveloperTools\Java\Java 1.8\jdk1.8.0_131\bin;D:\DeveloperTools\Java\Java 1.8\jdk1.8.0_131\jre\bin;";C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\DeveloperTools\Redis-x64;D:\DeveloperTools\Git\cmd;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;D:\DeveloperTools\NetSarang\Xshell 7\;D:\DeveloperTools\Java\Java 1.8\jdk1.8.0_131\bin;D:\DeveloperTools\NetSarang\Xftp 7\;D:\DeveloperTools\protoc-21.2-win64\bin;C:\Program Files\nodejs\;D:\DeveloperTools\HashiCorp\Vagrant\bin;D:\DeveloperTools\apache-maven-3.6.1\bin;C:\Users\ShiYang\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\ShiYang\AppData\Local\Programs\Python\Python310\;C:\Users\ShiYang\AppData\Local\Microsoft\WindowsApps;C:\Users\ShiYang\.dotnet\tools;D:\DeveloperTools\JetBrains\IntelliJ IDEA 2021.2.3\bin;;D:\DeveloperTools\JetBrains\JetBrains Rider 2021.2.2\bin;;C:\Users\ShiYang\AppData\Local\Programs\Microsoft VS Code\bin;D:\DeveloperTools\Microsoft VS Code\bin;D:\DeveloperTools\JetBrains\PhpStorm 2021.3.3\bin;;D:\DeveloperTools\JetBrains\PyCharm 2021.3.3\bin;;C:\Users\ShiYang\AppData\Roaming\npm;;.]
+
+2022-08-07 15:52:07,191 INFO Initializing Spring embedded WebApplicationContext
+
+2022-08-07 15:52:07,191 INFO Root WebApplicationContext: initialization completed in 2741 ms
+
+2022-08-07 15:52:10,644 INFO Use Mysql as the driver
+
+2022-08-07 15:52:11,102 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2022-08-07 15:52:11,456 INFO Adding welcome page: class path resource [static/index.html]
+
+2022-08-07 15:52:11,751 INFO Creating filter chain: Ant [pattern='/'], []
+
+2022-08-07 15:52:11,751 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2022-08-07 15:52:11,753 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2022-08-07 15:52:11,757 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2022-08-07 15:52:11,757 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2022-08-07 15:52:11,758 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2022-08-07 15:52:11,758 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2022-08-07 15:52:11,759 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2022-08-07 15:52:11,759 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+
+2022-08-07 15:52:11,760 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+
+2022-08-07 15:52:11,760 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2022-08-07 15:52:11,761 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+
+2022-08-07 15:52:11,761 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+
+2022-08-07 15:52:11,761 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+
+2022-08-07 15:52:11,762 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2022-08-07 15:52:11,762 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2022-08-07 15:52:11,785 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bd82fed, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b1f29fa, org.springframework.security.web.header.HeaderWriterFilter@6bea52d4, org.springframework.security.web.authentication.logout.LogoutFilter@31aa3ca5, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@c1bd0be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40f70521, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a4ca3f6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@476b0ae6, org.springframework.security.web.session.SessionManagementFilter@5c42d2b7, org.springframework.security.web.access.ExceptionTranslationFilter@4351c8c3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e7aa82b]
+
+2022-08-07 15:52:11,830 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2022-08-07 15:52:11,861 INFO Initializing ExecutorService 'taskScheduler'
+
+2022-08-07 15:52:11,975 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2022-08-07 15:52:11,981 INFO Started Nacos in 8.807 seconds (JVM running for 9.361)
+
+2022-08-07 15:52:11,981 INFO Nacos Log files: D:\Projects\learn\OnlineMall\utils\nacos\nacos-server-1.1.3\nacos/logs/
+
+2022-08-07 15:52:11,981 INFO Nacos Conf files: D:\Projects\learn\OnlineMall\utils\nacos\nacos-server-1.1.3\nacos/conf/
+
+2022-08-07 15:52:11,982 INFO Nacos Data files: D:\Projects\learn\OnlineMall\utils\nacos\nacos-server-1.1.3\nacos/data/
+
+2022-08-07 15:52:11,982 INFO Nacos started successfully in stand alone mode.
+
+2022-08-07 15:52:12,348 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2022-08-07 15:52:12,349 INFO Initializing Servlet 'dispatcherServlet'
+
+2022-08-07 15:52:12,358 INFO Completed initialization in 9 ms
+
+2022-08-07 16:02:10,467 INFO [capacityManagement] start correct usage
+
+2022-08-07 16:02:10,512 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-08-07 16:02:10,642 WARN clearConfigHistory start
+
+2022-08-07 16:12:10,513 INFO [capacityManagement] start correct usage
+
+2022-08-07 16:12:10,514 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-08-07 16:12:10,668 WARN clearConfigHistory start
+
+2022-08-07 16:22:10,521 INFO [capacityManagement] start correct usage
+
+2022-08-07 16:22:10,522 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-08-07 16:22:10,685 WARN clearConfigHistory start
+
+2022-08-07 16:32:10,523 INFO [capacityManagement] start correct usage
+
+2022-08-07 16:32:10,525 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-08-07 16:32:10,697 WARN clearConfigHistory start
+
+2022-08-07 18:52:51,484 WARN clearConfigHistory start
+
+2022-08-07 19:18:21,894 WARN clearConfigHistory start
+

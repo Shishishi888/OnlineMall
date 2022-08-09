@@ -1,0 +1,138 @@
+2022-08-07 15:19:27,179 INFO DEFAULT_GROUP@@onlinemall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 15:19:27,182 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 192.168.106.1:88_true,
+
+2022-08-07 15:20:40,702 INFO DEFAULT_GROUP@@onlinemall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 15:20:40,703 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-product, ips: 192.168.106.1:12000_true,
+
+2022-08-07 15:20:40,704 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-product, ips: 192.168.106.1:12000_true,
+
+2022-08-07 15:22:13,957 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 15:22:13,957 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.106.1:8080_true,
+
+2022-08-07 15:22:13,958 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 15:22:13,958 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.106.1:8080_true,
+
+2022-08-07 15:22:13,959 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.106.1:8080_true,
+
+2022-08-07 15:22:13,960 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.106.1:8080_true,
+
+2022-08-07 15:23:12,946 INFO DEFAULT_GROUP@@onlinemall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.106.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 15:23:12,946 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 
+
+2022-08-07 15:23:25,040 INFO DEFAULT_GROUP@@onlinemall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 15:23:25,040 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 192.168.106.1:88_true,
+
+2022-08-07 15:23:25,042 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 192.168.106.1:88_true,
+
+2022-08-07 15:52:12,487 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 15:52:12,489 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.106.1:8080_true,
+
+2022-08-07 15:52:14,888 INFO DEFAULT_GROUP@@onlinemall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 15:52:14,889 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 192.168.106.1:88_true,
+
+2022-08-07 15:52:16,130 INFO DEFAULT_GROUP@@onlinemall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 15:52:16,130 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-product, ips: 192.168.106.1:12000_true,
+
+2022-08-07 16:11:17,486 INFO DEFAULT_GROUP@@onlinemall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.106.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 16:11:17,486 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 
+
+2022-08-07 16:11:23,819 INFO DEFAULT_GROUP@@onlinemall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.106.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 16:11:23,819 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-product, ips: 
+
+2022-08-07 16:11:31,263 INFO DEFAULT_GROUP@@onlinemall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 16:11:31,263 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 192.168.106.1:88_true,
+
+2022-08-07 16:11:31,268 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 192.168.106.1:88_true,
+
+2022-08-07 16:11:36,810 INFO DEFAULT_GROUP@@onlinemall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 16:11:36,810 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-product, ips: 192.168.106.1:12000_true,
+
+2022-08-07 16:11:36,811 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-product, ips: 192.168.106.1:12000_true,
+
+2022-08-07 18:52:47,089 INFO {POS} {IP-DISABLED} valid: 192.168.106.1:12000@DEFAULT@DEFAULT_GROUP@@onlinemall-product, region: unknown, msg: client timeout after 15000, last beat: 1659861150258
+
+2022-08-07 18:52:47,092 INFO {POS} {IP-DISABLED} valid: 192.168.106.1:8080@DEFAULT@DEFAULT_GROUP@@renren-fast, region: unknown, msg: client timeout after 15000, last beat: 1659861151104
+
+2022-08-07 18:52:47,096 INFO {POS} {IP-DISABLED} valid: 192.168.106.1:88@DEFAULT@DEFAULT_GROUP@@onlinemall-gateway, region: unknown, msg: client timeout after 15000, last beat: 1659861149709
+
+2022-08-07 18:52:47,097 INFO service: DEFAULT_GROUP@@onlinemall-gateway {POS} {IP-ENABLED} valid: 192.168.106.1:88@DEFAULT, region: unknown, msg: client beat ok
+
+2022-08-07 18:52:47,378 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.106.1:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-08-07 18:52:47,378 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2022-08-07 18:52:47,378 INFO DEFAULT_GROUP@@onlinemall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.106.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 18:52:47,378 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 
+
+2022-08-07 18:52:47,378 INFO DEFAULT_GROUP@@onlinemall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.106.1:12000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-08-07 18:52:47,378 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-product, ips: 
+
+2022-08-07 18:52:47,491 INFO DEFAULT_GROUP@@onlinemall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 18:52:47,491 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-product, ips: 192.168.106.1:12000_true,
+
+2022-08-07 18:52:48,318 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 18:52:48,318 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.106.1:8080_true,
+
+2022-08-07 18:52:51,941 INFO DEFAULT_GROUP@@onlinemall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 18:52:51,941 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 192.168.106.1:88_true,
+
+2022-08-07 19:18:21,225 INFO {POS} {IP-DISABLED} valid: 192.168.106.1:8080@DEFAULT@DEFAULT_GROUP@@renren-fast, region: unknown, msg: client timeout after 15000, last beat: 1659869978752
+
+2022-08-07 19:18:21,225 INFO {POS} {IP-DISABLED} valid: 192.168.106.1:88@DEFAULT@DEFAULT_GROUP@@onlinemall-gateway, region: unknown, msg: client timeout after 15000, last beat: 1659869977999
+
+2022-08-07 19:18:21,225 INFO {POS} {IP-DISABLED} valid: 192.168.106.1:12000@DEFAULT@DEFAULT_GROUP@@onlinemall-product, region: unknown, msg: client timeout after 15000, last beat: 1659869978587
+
+2022-08-07 19:18:21,228 INFO DEFAULT_GROUP@@onlinemall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.106.1:12000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-08-07 19:18:21,228 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-product, ips: 
+
+2022-08-07 19:18:21,436 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.106.1:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-08-07 19:18:21,436 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2022-08-07 19:18:21,437 INFO DEFAULT_GROUP@@onlinemall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.106.1:88:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-08-07 19:18:21,437 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 
+
+2022-08-07 19:18:23,070 INFO DEFAULT_GROUP@@onlinemall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 19:18:23,070 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 192.168.106.1:88_true,
+
+2022-08-07 19:18:23,646 INFO DEFAULT_GROUP@@onlinemall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 19:18:23,646 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-product, ips: 192.168.106.1:12000_true,
+
+2022-08-07 19:18:23,809 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.106.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 19:18:23,809 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.106.1:8080_true,
+
+2022-08-07 19:19:30,175 INFO DEFAULT_GROUP@@onlinemall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.106.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 19:19:30,175 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-gateway, ips: 
+
+2022-08-07 19:19:33,411 INFO DEFAULT_GROUP@@onlinemall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.106.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 19:19:33,411 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@onlinemall-product, ips: 
+
+2022-08-07 19:19:35,559 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.106.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-07 19:19:35,559 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
